@@ -10,5 +10,6 @@ outputArg2 = inputArg2;
 %
 %
 %
-%˚
+%
+%
 end

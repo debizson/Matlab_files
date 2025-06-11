@@ -1,0 +1,188 @@
+﻿Diagnose log at 2025-06-11T13:22:42Z
+
+AppPath: /usr/local/bin/git-credential-manager
+InstallDir: /usr/local/share/gcm-core/
+Version: 2.6.1+786ab03440ddc82e807a97c0e540f5247e44cec6
+
+------------
+Diagnostic: Environment
+Skipped: False
+Success: True
+Exception: None
+Log:
+OSType: Linux
+OSVersion: Ubuntu 24.04.2 LTS
+Reading environment variables... OK
+ Variables:
+GSM_SKIP_SSH_AGENT_WORKAROUND=true
+QT_ACCESSIBILITY=1
+XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg
+GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
+XDG_SESSION_DESKTOP=ubuntu
+VTE_VERSION=7600
+SHLVL=1
+DBUS_STARTER_BUS_TYPE=session
+NVM_DIR=/home/bakisz/.nvm
+GTK_MODULES=gail:atk-bridge
+GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+XDG_MENU_PREFIX=gnome-
+XAUTHORITY=/run/user/1000/gdm/Xauthority
+LESSOPEN=| /usr/bin/lesspipe %s
+SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+COLORTERM=truecolor
+WINDOWPATH=2
+MEMORY_PRESSURE_WRITE=c29tZSAyMDAwMDAgMjAwMDAwMAA=
+SYSTEMD_EXEC_PID=2493
+LIBVIRT_DEFAULT_URI=qemu:///system
+GDMSESSION=ubuntu
+HOME=/home/bakisz
+MEMORY_PRESSURE_WATCH=/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\x2dsession\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure
+GIT_TRACE2_PARENT_SID=2ebb2633-7e6f-4817-9e58-ca946bedb783
+XDG_SESSION_TYPE=x11
+GNOME_TERMINAL_SERVICE=:1.236
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus,guid=8d9b7581998c79f3770f755068493ec3
+LESSCLOSE=/usr/bin/lesspipe %s %s
+TERM=xterm-256color
+GNOME_SHELL_SESSION_MODE=ubuntu
+LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:
+_=/usr/local/bin/git-credential-manager
+USER=bakisz
+PWD=/home/bakisz/Gi_msc_szoftveres_targyai_/Matlab_sources/Matlab_files
+DESKTOP_SESSION=ubuntu
+USERNAME=bakisz
+DEBUGINFOD_URLS=https://debuginfod.ubuntu.com 
+NVM_CD_FLAGS=
+LOGNAME=bakisz
+SHELL=/bin/bash
+QT_IM_MODULE=ibus
+XDG_CURRENT_DESKTOP=ubuntu:GNOME
+GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/f8989276_7974_43fc_a935_930c35b46e87
+XDG_RUNTIME_DIR=/run/user/1000
+DBUS_STARTER_ADDRESS=unix:path=/run/user/1000/bus,guid=8d9b7581998c79f3770f755068493ec3
+XDG_SESSION_CLASS=user
+OLDPWD=/home/bakisz/Gi_msc_szoftveres_targyai_/Matlab_sources
+LANG=hu_HU.UTF-8
+DISPLAY=:0
+SESSION_MANAGER=local/bakisz-System-Product-Name:@/tmp/.ICE-unix/2493,unix/bakisz-System-Product-Name:/tmp/.ICE-unix/2493
+PATH=/home/bakisz/Matlab/bin:/home/bakisz/WebStorm-2024.2.3/WebStorm-242.23339.15/bin:/home/bakisz/PhpStorm-2024.2.3/PhpStorm-242.23339.16/bin:/home/bakisz/ideaIU-242.21829.227/idea-IU-242.21829.227/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
+XMODIFIERS=@im=ibus
+XDG_DATA_DIRS=/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+
+
+------------
+Diagnostic: File system
+Skipped: False
+Success: True
+Exception: None
+Log:
+Temporary directory is '/tmp/'...
+Checking basic file I/O...
+Writing to temporary file '/tmp/ea224c31a661b9bc8f6cffdc'... OK
+Reading from temporary file '/tmp/ea224c31a661b9bc8f6cffdc'... OK
+Deleting temporary file '/tmp/ea224c31a661b9bc8f6cffdc'... OK
+Testing IFileSystem instance...
+UserHomePath: /home/bakisz
+UserDataDirectoryPath: /home/bakisz/.gcm
+GetCurrentDirectory(): /home/bakisz/Gi_msc_szoftveres_targyai_/Matlab_sources/Matlab_files
+
+------------
+Diagnostic: Networking
+Skipped: False
+Success: True
+Exception: None
+Log:
+Checking networking and HTTP stack...
+Creating HTTP client... OK
+IsNetworkAvailable: True
+Sending HEAD request to http://example.com...Sending HEAD request to https://example.com... OK
+ OK
+Acquiring free TCP port... OK
+Testing local HTTP loopback connections...
+Creating new HTTP listener for http://localhost:46507/... OK
+Waiting for loopback connection... OK
+Writing response... OK
+Waiting for response data... OK
+Loopback connection data OK
+
+------------
+Diagnostic: Git
+Skipped: False
+Success: True
+Exception: None
+Log:
+Getting Git version... OK
+Git version is '2.43.0'
+Locating current repository...Git repository at '/home/bakisz/Gi_msc_szoftveres_targyai_/Matlab_sources/Matlab_files/.git'
+ OK
+Listing all Git configuration... OK
+Git configuration:
+file:/home/bakisz/.gitconfig	user.emial=dinnyes2@freemail.hu
+file:/home/bakisz/.gitconfig	user.name=debizson
+file:/home/bakisz/.gitconfig	user.email=dinnyes2@freemail.hu
+file:/home/bakisz/.gitconfig	credential.https://dev.azure.com.usehttppath=true
+file:/home/bakisz/.gitconfig	credential.helper=/usr/share/doc/git/contrib/credential/libsecret/git-credential-libsecret
+file:/home/bakisz/.gitconfig	credential.helper=
+file:/home/bakisz/.gitconfig	credential.helper=/usr/local/bin/git-credential-manager
+file:.git/config	core.repositoryformatversion=0
+file:.git/config	core.filemode=true
+file:.git/config	core.bare=false
+file:.git/config	core.logallrefupdates=true
+file:.git/config	remote.origin.url=https://github.com/debizson/Matlab_files.git
+file:.git/config	remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+file:.git/config	branch.main.remote=origin
+file:.git/config	branch.main.merge=refs/heads/main
+
+
+------------
+Diagnostic: Credential storage
+Skipped: False
+Success: False
+Exception:
+System.Exception: No credential store has been selected.
+
+Set the GCM_CREDENTIAL_STORE environment variable or the credential.credentialStore Git configuration setting to one of the following options:
+
+  secretservice : freedesktop.org Secret Service (requires graphical interface)
+  gpg           : GNU `pass` compatible credential storage (requires GPG and `pass`)
+  cache         : Git's in-memory credential cache
+  plaintext     : store credentials in plain-text files (UNSECURE)
+  none          : disable internal credential storage
+
+See https://aka.ms/gcm/credstores for more information.
+
+   at GitCredentialManager.CredentialStore.EnsureBackingStore()
+   at GitCredentialManager.CredentialStore.Remove(String service, String account)
+   at GitCredentialManager.Diagnostics.CredentialStoreDiagnostic.RunInternalAsync(StringBuilder log, IList`1 additionalFiles)
+   at GitCredentialManager.Diagnostics.Diagnostic.RunAsync()
+Log:
+ICredentialStore instance is of type: CredentialStore
+Writing test credential...Deleting test credential...
+------------
+Diagnostic: Microsoft authentication (AAD/MSA)
+Skipped: False
+Success: True
+Exception: None
+Log:
+Broker is not enabled.
+Flow type is: Auto
+Gathering MSAL token cache data... OK
+CacheDirectory: /home/bakisz/.local/.IdentityService
+CacheFileName: msal.cache
+CacheFilePath: /home/bakisz/.local/.IdentityService/msal.cache
+KeyringCollection: 
+KeyringSchemaName: 
+KeyringSecretLabel: 
+KeyringAttribute1: (,)
+KeyringAttribute2: (,)
+Creating cache helper... OK
+Verifying MSAL token cache persistence... OK
+
+------------
+Diagnostic: GitHub API
+Skipped: False
+Success: True
+Exception: None
+Log:
+Using 'https://github.com/' as API target.
+Querying '/meta' endpoint... OK
+
