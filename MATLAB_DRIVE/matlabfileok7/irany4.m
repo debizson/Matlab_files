@@ -1,0 +1,12 @@
+ffun=@(y,t)y.^2;
+[Y,T]=meshgrid(-2:0.1:2,-2:0.1:2);
+
+DY=ffun(Y,T);
+DT=ones(size(Y));
+
+quiver(T,Y,DT,DY)
+hold on;
+t=0:0.01:0.99;
+plot(t,1./(1-t));
+
+axis([-2 2 -2 2])

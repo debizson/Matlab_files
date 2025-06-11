@@ -1,0 +1,28 @@
+#
+#DAStudio Preference File
+#
+
+
+[DAStudio DDG]
+DDGFontSize=10
+
+[GLUEEditorPreferences]
+FirstTimeScrollNotification=0
+FirstTimeSimulinkPortMoveTool=1
+SuggestQuickInsertNotification=0
+
+[General]
+MatlabRelease=2024b
+
+[LibraryBrowser2]
+LBRecentName0=simulink/Commonly Used Blocks/Integrator
+LBScaleFactor=1
+LBSearchHistory=integrator,
+LBSearch_MatchCase=0
+LBSearch_MatchWholeWord=0
+LBSearch_UseRegExp=0
+LBSortStyle=0
+LBTreePopupHeight=500
+LBTreePopupWidth=250
+LBUseCache=1
+

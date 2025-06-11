@@ -1,0 +1,15 @@
+a=1;
+b=0.1;
+c=0.02;
+d=0.5;
+e=0.4;
+f=0;
+Rd=@(R,Z)c.*Z.*R-d.*R-e.*R;
+Zd=@(R,Z)a.*Z-b.*Z.*R-f.*Z;
+r=5:15;
+z=20:30;
+[R,Z]=meshgrid(r,z);
+quiver(R,Z,Rd(R,Z),Zd(R,Z));
+xlabel('Rókák száma');
+ylabel('Kacsák száma');
+axis([5,15,20,30]);
